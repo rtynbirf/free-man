@@ -1,0 +1,21 @@
+name: rules-lint
+on:
+  push:
+    branches: [main]
+    paths: ['data/domains.json', 'rules/**', 'tools/build_rules.py']
+  pull_request:
+    paths: ['data/domains.json', 'rules/**', 'tools/build_rules.py']
+  workflow_dispatch: {}
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Пересборка rules/*.json из data/domains.json
+        run: python3 tools/build_rules.py
+      - name: Приёмка — diff пуст = закоммиченные правила каноничны
+        run: |
+          if ! git diff --exit-code -- rules/; then
+            echo "::error::rules/*.json расходятся с data/domains.json — пересобери: python3 tools/build_rules.py"
+            exit 1
+          fi
