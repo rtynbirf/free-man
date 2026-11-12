@@ -1,0 +1,301 @@
+[
+ {
+  "id": 101,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "2mdn.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 102,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "33across.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 103,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "adnxs.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 104,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "adsrvr.org"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 105,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "amazon-adsystem.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 106,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "bidswitch.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 107,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "casalemedia.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 108,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "criteo.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 109,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "criteo.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 110,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "googleadservices.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 111,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "googlesyndication.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 112,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "gumgum.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 113,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "media.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 114,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "openx.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 115,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "outbrain.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 116,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "pagead2.googlesyndication.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 117,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "pubmatic.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 118,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "rubiconproject.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 119,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "sharethrough.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 120,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "smartadserver.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 121,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "taboola.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 122,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "teads.tv"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 123,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "yieldmo.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ }
+]

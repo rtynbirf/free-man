@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FREE MAN — план на 7 дней</title><link rel="stylesheet" href="guide.css"></head>
+<body><main>
+<h1>FREE MAN · План цифрового самоосвобождения</h1>
+<p class="lead">Три уровня, не зависящих друг от друга: <b>браузер</b> → <b>сеть (DNS)</b> → <b>настройки самих сервисов</b>. Расширение закрывает первый уровень; остальное — ваши руки, ~3 часа за неделю.</p>
+<p class="note"><b>Границы.</b> Счётчик сообщений стоит на сервере сервиса — убрать его с вашей стороны нельзя. Реально убирается сбор вашего: чужие трекеры, пиксели, записи сессий, хвосты в браузере. Анонимности это не даёт.</p>
+
+<h2>Чек-лист на 7 дней <small>(галочки хранятся локально)</small></h2>
+<ol class="days" id="days"></ol>
+
+<h2>1. Браузер</h2>
+<div class="cols">
+<div><h3>Brave</h3><ol>
+<li>Shields → уровень <b>Aggressive</b>.</li>
+<li>Строгая защита от fingerprinting — включить.</li>
+<li>Forgetful Browsing для сайтов ИИ: cookies и хранилища стираются при закрытии.</li>
+<li>Отправка сигнала Global Privacy Control — включить.</li>
+<li>uBlock Origin поверх Brave не ставить.</li></ol></div>
+<div><h3>Firefox</h3><ol>
+<li>Приватность и защита → <b>Strict</b>.</li>
+<li>uBlock Origin: EasyPrivacy, AdGuard Tracking Protection, Annoyances.</li>
+<li>Multi-Account Containers: отдельный контейнер на каждый ИИ-сервис.</li>
+<li>Cookie AutoDelete.</li>
+<li><code>about:config</code> → <code>privacy.resistFingerprinting</code> = true.</li></ol></div></div>
+<p>В Chrome эту роль берёт FREE MAN (кнопка в панели) + отдельные профили браузера под сервисы. Для чувствительного — временный чат или окно инкогнито; не называйте себя в первом сообщении (названия чатов утекают в трекеры даже при блокировке cookies).</p>
+
+<h2>2. Сеть: DNS-блокировка</h2>
+<ol>
+<li>NextDNS (nextdns.io), бесплатно ≈300 тыс. запросов в месяц → вкладка <b>Denylist</b> → вставить список (кнопка ниже).</li>
+<li>Settings: Block Disguised Trackers, AI Threat Protection, Native Tracking Protection.</li>
+<li>Логи включить на 1–2 суток, потом No Logging.</li>
+<li>Подключить телефон (приложение) и роутер; проверка — nextdns.io/test.</li>
+<li>Что-то сломалось → журнал → домен в Allowlist точечно. Альтернатива: Pi-hole (тот же список).</li></ol>
+<div class="btns">
+<button data-export="plain">Скачать для NextDNS / Pi-hole (.txt)</button>
+<button data-export="ubo">Скачать для uBlock Origin (||домен^)</button>
+<button data-export="copy">Копировать список</button></div>
+<p id="exp" class="muted"></p>
+
+<h2>3. Отказ от обучения в самих сервисах</h2>
+<table><thead><tr><th>Сервис</th><th>Где</th><th>Что сделать</th></tr></thead><tbody>
+<tr><td>ChatGPT</td><td>Settings → Data Controls</td><td>Выключить «Improve the model for everyone». Временный чат — иконка у поля ввода. По умолчанию обучение включено даже на Plus.</td></tr>
+<tr><td>Claude</td><td>Settings → Privacy</td><td>Отключить использование переписок для обучения; старые чаты удалять вручную.</td></tr>
+<tr><td>Gemini</td><td>Настройки → Активность</td><td>Выключить сохранение активности; прошлое удалить на myactivity.google.com. Цена — пропадёт история чатов.</td></tr>
+<tr><td>Copilot</td><td>privacy.microsoft.com</td><td>Удалить активность Copilot, выключить персонализацию; чувствительное — во временном чате.</td></tr>
+<tr><td>Perplexity</td><td>Settings → AI Data Usage</td><td>Отключить участие в обучении. Гостевые чаты не использовать.</td></tr>
+<tr><td>z.ai</td><td>переключателя нет</td><td>Чистить историю вручную; чувствительное не вводить.</td></tr>
+<tr><td>DeepSeek</td><td>переключателя нет</td><td>То же.</td></tr></tbody></table>
+
+<h2>4. Привычки</h2>
+<ul>
+<li><b>Вкладки.</b> Квота общая и серверная — вкладками её не удвоить. Для параллели: отдельные профили/контейнеры или API с оплатой за токены.</li>
+<li><b>Ротация.</b> Бесплатные квоты нескольких сервисов складываются; один «основной», два-три «резервных».</li>
+<li><b>Ночь.</b> У GLM off-peak вдвое дешевле — тяжёлое на ночь. Недельные квоты тратить равномерно.</li>
+<li><b>Алиасы почты</b> (SimpleLogin / Firefox Relay) на каждый сервис; одну карту не вешать на все подписки.</li>
+<li><b>Чувствительное</b> — только на локальную модель (Ollama / LM Studio). Там утекать нечему.</li></ul>
+
+<h2>5. Проверка</h2>
+<ul>
+<li>Иконка FREE MAN показывает число заблокированного на вкладке; в popup — домены.</li>
+<li>NextDNS → Logs: запросы к google-analytics.com / connect.facebook.net со статусом Blocked.</li>
+<li>coveryourtracks.eff.org — до и после настройки браузера.</li>
+<li>Раз в месяц: пересмотреть лимиты (меняются молча) и сверить список с журналом NextDNS.</li></ul>
+
+<h2>Что внутри списка <small id="cnt"></small></h2>
+<table id="dom"><thead><tr><th>Набор</th><th>Владелец</th><th>Категория</th><th>Домены</th></tr></thead><tbody></tbody></table>
+<p class="muted">Наборы: <b>trackers</b> — режим «Базовый»; <b>ads</b> + <b>widgets</b> — добавляются в «Строгом». Widgets (intercom, branch, onesignal, cloudflareinsights…) ломают сайты чаще всего — при поломке ставьте паузу для сайта в popup.</p>
+</main><script src="guide.js"></script></body></html>

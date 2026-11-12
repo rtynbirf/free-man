@@ -1,0 +1,93 @@
+[
+ {
+  "id": 201,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "adjust.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 202,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "appsflyer.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 203,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "branch.io"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 204,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "cloudflareinsights.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 205,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "intercom.io"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 206,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "intercomcdn.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 207,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "onesignal.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ }
+]

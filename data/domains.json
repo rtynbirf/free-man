@@ -1,0 +1,506 @@
+[
+ {
+  "id": 101,
+  "domain": "2mdn.net",
+  "tier": "ads",
+  "owner": "Google",
+  "category": "реклама"
+ },
+ {
+  "id": 1,
+  "domain": "2o7.net",
+  "tier": "trackers",
+  "owner": "Adobe/Oracle/Comscore",
+  "category": "профилирование"
+ },
+ {
+  "id": 102,
+  "domain": "33across.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 201,
+  "domain": "adjust.com",
+  "tier": "widgets",
+  "owner": "Атрибуция и виджеты",
+  "category": "ломает сайты чаще"
+ },
+ {
+  "id": 103,
+  "domain": "adnxs.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 2,
+  "domain": "ads.linkedin.com",
+  "tier": "trackers",
+  "owner": "LinkedIn",
+  "category": "пиксель"
+ },
+ {
+  "id": 3,
+  "domain": "adservice.google.com",
+  "tier": "trackers",
+  "owner": "Google",
+  "category": "аналитика"
+ },
+ {
+  "id": 104,
+  "domain": "adsrvr.org",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 4,
+  "domain": "alb.reddit.com",
+  "tier": "trackers",
+  "owner": "Соцсети",
+  "category": "пиксель"
+ },
+ {
+  "id": 105,
+  "domain": "amazon-adsystem.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 5,
+  "domain": "amplitude.com",
+  "tier": "trackers",
+  "owner": "Аналитические платформы",
+  "category": "аналитика"
+ },
+ {
+  "id": 6,
+  "domain": "analytics.tiktok.com",
+  "tier": "trackers",
+  "owner": "TikTok",
+  "category": "пиксель"
+ },
+ {
+  "id": 7,
+  "domain": "analytics.twitter.com",
+  "tier": "trackers",
+  "owner": "X (Twitter)",
+  "category": "пиксель"
+ },
+ {
+  "id": 8,
+  "domain": "app-measurement.com",
+  "tier": "trackers",
+  "owner": "Google",
+  "category": "аналитика"
+ },
+ {
+  "id": 202,
+  "domain": "appsflyer.com",
+  "tier": "widgets",
+  "owner": "Атрибуция и виджеты",
+  "category": "ломает сайты чаще"
+ },
+ {
+  "id": 9,
+  "domain": "bat.bing.com",
+  "tier": "trackers",
+  "owner": "Microsoft",
+  "category": "пиксель"
+ },
+ {
+  "id": 106,
+  "domain": "bidswitch.net",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 203,
+  "domain": "branch.io",
+  "tier": "widgets",
+  "owner": "Атрибуция и виджеты",
+  "category": "ломает сайты чаще"
+ },
+ {
+  "id": 10,
+  "domain": "browser-intake-datadoghq.com",
+  "tier": "trackers",
+  "owner": "Sentry/Datadog/прочие",
+  "category": "ошибки и сессии"
+ },
+ {
+  "id": 11,
+  "domain": "browser-intake-datadoghq.eu",
+  "tier": "trackers",
+  "owner": "Sentry/Datadog/прочие",
+  "category": "ошибки и сессии"
+ },
+ {
+  "id": 12,
+  "domain": "bugsnag.com",
+  "tier": "trackers",
+  "owner": "Sentry/Datadog/прочие",
+  "category": "ошибки и сессии"
+ },
+ {
+  "id": 107,
+  "domain": "casalemedia.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 13,
+  "domain": "clarity.ms",
+  "tier": "trackers",
+  "owner": "Microsoft",
+  "category": "пиксель"
+ },
+ {
+  "id": 204,
+  "domain": "cloudflareinsights.com",
+  "tier": "widgets",
+  "owner": "Атрибуция и виджеты",
+  "category": "ломает сайты чаще"
+ },
+ {
+  "id": 14,
+  "domain": "connect.facebook.net",
+  "tier": "trackers",
+  "owner": "Meta",
+  "category": "пиксель"
+ },
+ {
+  "id": 108,
+  "domain": "criteo.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 109,
+  "domain": "criteo.net",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 15,
+  "domain": "ct.pinterest.com",
+  "tier": "trackers",
+  "owner": "Соцсети",
+  "category": "пиксель"
+ },
+ {
+  "id": 16,
+  "domain": "datadoghq.com",
+  "tier": "trackers",
+  "owner": "Sentry/Datadog/прочие",
+  "category": "ошибки и сессии"
+ },
+ {
+  "id": 17,
+  "domain": "datadoghq.eu",
+  "tier": "trackers",
+  "owner": "Sentry/Datadog/прочие",
+  "category": "ошибки и сессии"
+ },
+ {
+  "id": 18,
+  "domain": "demdex.net",
+  "tier": "trackers",
+  "owner": "Adobe/Oracle/Comscore",
+  "category": "профилирование"
+ },
+ {
+  "id": 19,
+  "domain": "doubleclick.net",
+  "tier": "trackers",
+  "owner": "Google",
+  "category": "аналитика"
+ },
+ {
+  "id": 20,
+  "domain": "everesttech.net",
+  "tier": "trackers",
+  "owner": "Adobe/Oracle/Comscore",
+  "category": "профилирование"
+ },
+ {
+  "id": 21,
+  "domain": "fullstory.com",
+  "tier": "trackers",
+  "owner": "Аналитические платформы",
+  "category": "аналитика"
+ },
+ {
+  "id": 22,
+  "domain": "google-analytics.com",
+  "tier": "trackers",
+  "owner": "Google",
+  "category": "аналитика"
+ },
+ {
+  "id": 110,
+  "domain": "googleadservices.com",
+  "tier": "ads",
+  "owner": "Google",
+  "category": "реклама"
+ },
+ {
+  "id": 111,
+  "domain": "googlesyndication.com",
+  "tier": "ads",
+  "owner": "Google",
+  "category": "реклама"
+ },
+ {
+  "id": 23,
+  "domain": "googletagmanager.com",
+  "tier": "trackers",
+  "owner": "Google",
+  "category": "аналитика"
+ },
+ {
+  "id": 24,
+  "domain": "googletagservices.com",
+  "tier": "trackers",
+  "owner": "Google",
+  "category": "аналитика"
+ },
+ {
+  "id": 112,
+  "domain": "gumgum.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 25,
+  "domain": "heapanalytics.com",
+  "tier": "trackers",
+  "owner": "Аналитические платформы",
+  "category": "аналитика"
+ },
+ {
+  "id": 26,
+  "domain": "hotjar.com",
+  "tier": "trackers",
+  "owner": "Аналитические платформы",
+  "category": "аналитика"
+ },
+ {
+  "id": 205,
+  "domain": "intercom.io",
+  "tier": "widgets",
+  "owner": "Атрибуция и виджеты",
+  "category": "ломает сайты чаще"
+ },
+ {
+  "id": 206,
+  "domain": "intercomcdn.com",
+  "tier": "widgets",
+  "owner": "Атрибуция и виджеты",
+  "category": "ломает сайты чаще"
+ },
+ {
+  "id": 27,
+  "domain": "log.byteoversea.com",
+  "tier": "trackers",
+  "owner": "TikTok",
+  "category": "пиксель"
+ },
+ {
+  "id": 28,
+  "domain": "mcs.tiktok.com",
+  "tier": "trackers",
+  "owner": "TikTok",
+  "category": "пиксель"
+ },
+ {
+  "id": 113,
+  "domain": "media.net",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 29,
+  "domain": "mixpanel.com",
+  "tier": "trackers",
+  "owner": "Аналитические платформы",
+  "category": "аналитика"
+ },
+ {
+  "id": 30,
+  "domain": "moatads.com",
+  "tier": "trackers",
+  "owner": "Adobe/Oracle/Comscore",
+  "category": "профилирование"
+ },
+ {
+  "id": 31,
+  "domain": "nr-data.net",
+  "tier": "trackers",
+  "owner": "Sentry/Datadog/прочие",
+  "category": "ошибки и сессии"
+ },
+ {
+  "id": 32,
+  "domain": "omtrdc.net",
+  "tier": "trackers",
+  "owner": "Adobe/Oracle/Comscore",
+  "category": "профилирование"
+ },
+ {
+  "id": 207,
+  "domain": "onesignal.com",
+  "tier": "widgets",
+  "owner": "Атрибуция и виджеты",
+  "category": "ломает сайты чаще"
+ },
+ {
+  "id": 114,
+  "domain": "openx.net",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 115,
+  "domain": "outbrain.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 116,
+  "domain": "pagead2.googlesyndication.com",
+  "tier": "ads",
+  "owner": "Google",
+  "category": "реклама"
+ },
+ {
+  "id": 33,
+  "domain": "posthog.com",
+  "tier": "trackers",
+  "owner": "Аналитические платформы",
+  "category": "аналитика"
+ },
+ {
+  "id": 117,
+  "domain": "pubmatic.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 34,
+  "domain": "quantserve.com",
+  "tier": "trackers",
+  "owner": "Adobe/Oracle/Comscore",
+  "category": "профилирование"
+ },
+ {
+  "id": 118,
+  "domain": "rubiconproject.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 35,
+  "domain": "scorecardresearch.com",
+  "tier": "trackers",
+  "owner": "Adobe/Oracle/Comscore",
+  "category": "профилирование"
+ },
+ {
+  "id": 36,
+  "domain": "sc-static.net",
+  "tier": "trackers",
+  "owner": "Соцсети",
+  "category": "пиксель"
+ },
+ {
+  "id": 37,
+  "domain": "segment.com",
+  "tier": "trackers",
+  "owner": "Аналитические платформы",
+  "category": "аналитика"
+ },
+ {
+  "id": 38,
+  "domain": "segment.io",
+  "tier": "trackers",
+  "owner": "Аналитические платформы",
+  "category": "аналитика"
+ },
+ {
+  "id": 39,
+  "domain": "sentry.io",
+  "tier": "trackers",
+  "owner": "Sentry/Datadog/прочие",
+  "category": "ошибки и сессии"
+ },
+ {
+  "id": 119,
+  "domain": "sharethrough.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 120,
+  "domain": "smartadserver.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 40,
+  "domain": "snap.licdn.com",
+  "tier": "trackers",
+  "owner": "LinkedIn",
+  "category": "пиксель"
+ },
+ {
+  "id": 41,
+  "domain": "static.ads-twitter.com",
+  "tier": "trackers",
+  "owner": "X (Twitter)",
+  "category": "пиксель"
+ },
+ {
+  "id": 121,
+  "domain": "taboola.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 122,
+  "domain": "teads.tv",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ },
+ {
+  "id": 42,
+  "domain": "tr.snapchat.com",
+  "tier": "trackers",
+  "owner": "Соцсети",
+  "category": "пиксель"
+ },
+ {
+  "id": 123,
+  "domain": "yieldmo.com",
+  "tier": "ads",
+  "owner": "Рекламные биржи",
+  "category": "реклама"
+ }
+]

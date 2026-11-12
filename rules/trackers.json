@@ -1,0 +1,548 @@
+[
+ {
+  "id": 1,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "2o7.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 2,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "ads.linkedin.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 3,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "adservice.google.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 4,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "alb.reddit.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 5,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "amplitude.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 6,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "analytics.tiktok.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 7,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "analytics.twitter.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 8,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "app-measurement.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 9,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "bat.bing.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 10,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "browser-intake-datadoghq.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 11,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "browser-intake-datadoghq.eu"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 12,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "bugsnag.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 13,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "clarity.ms"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 14,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "connect.facebook.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 15,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "ct.pinterest.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 16,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "datadoghq.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 17,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "datadoghq.eu"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 18,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "demdex.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 19,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "doubleclick.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 20,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "everesttech.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 21,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "fullstory.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 22,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "google-analytics.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 23,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "googletagmanager.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 24,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "googletagservices.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 25,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "heapanalytics.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 26,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "hotjar.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 27,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "log.byteoversea.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 28,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "mcs.tiktok.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 29,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "mixpanel.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 30,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "moatads.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 31,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "nr-data.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 32,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "omtrdc.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 33,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "posthog.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 34,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "quantserve.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 35,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "scorecardresearch.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 36,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "sc-static.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 37,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "segment.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 38,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "segment.io"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 39,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "sentry.io"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 40,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "snap.licdn.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 41,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "static.ads-twitter.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 42,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "tr.snapchat.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ }
+]
