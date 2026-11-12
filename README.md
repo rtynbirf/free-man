@@ -2,11 +2,12 @@
 
 <!--ФОРЖ:МУЗА:НАЧАЛО-->
 <div align="center">
-  <img src="repo-muse.svg" width="100%" alt="Муза free-man: картина кузни ПОЛИМАТ, раунд 9" />
+  <img src="repo-muse.svg" width="100%" alt="Муза free-man: мастерская ПРОЁМ СВЕТА, кузня ПОЛИМАТ, раунд 11" />
   <br/>
-  <img src="forge-divider.svg" width="62%" alt="разделитель кузни ПОЛИМАТ" />
+  <img src="forge-divider.svg" width="62%" alt="делитель мастерской ПРОЁМ СВЕТА" />
 </div>
 <!--ФОРЖ:МУЗА:КОНЕЦ-->
+
 
 
 Local-first. Нет аккаунта, сервера, телеметрии, content scripts, удалённых списков.
