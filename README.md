@@ -6,7 +6,7 @@ Local-first. Нет аккаунта, сервера, телеметрии, cont
 Корень этого репозитория — и есть расширение: `manifest.json` лежит на верхнем уровне.
 - Из GitHub: **Code → Download ZIP** → распаковать → `chrome://extensions` → Developer mode → Load unpacked → распакованная папка.
 - Через git: `git clone <url> && cd free-man` → тот же путь.
-- Из релиза: zip-архивы версий лежат в Releases (если заведёшь).
+- Из релиза: [Releases](https://github.com/rtynbirf/free-man/releases) — zip версии + PDF-план отдельным ассетом.
 
 ## Что внутри 0.2.1
 Изменение против 0.2.0: в манифест добавлено `declarativeNetRequestFeedback` — без него вызов `getMatchedRules()` из popup отклоняется, и список доменов на вкладке молча показывал ноль. Также добавлен `clipboardWrite` (надёжная кнопка «Копировать список»).
@@ -17,7 +17,7 @@ Local-first. Нет аккаунта, сервера, телеметрии, cont
 - **Стереть данные сайта** (cookies, localStorage, IndexedDB, Cache Storage, Service Workers) по origin — кнопка с подтверждением.
 - **GPC** (`Sec-GPC: 1`) — опционально; разрешение «все сайты» запрашивается только при включении и отзывается при выключении.
 - **Страница «План на 7 дней»** (`guide.html`, она же options page): чек-лист, настройки Brave/Firefox/NextDNS, таблица отказа от обучения, экспорт списка для NextDNS / Pi-hole / uBlock Origin.
-- `docs/`: исходный блок-лист и PDF-план.
+- `docs/`: исходный блок-лист и указатель на PDF-план; сам PDF живёт в релизе как ассет — бинарники >100 КБ в git не ходят (Ф2).
 
 ## Разрешения
 `storage`, `declarativeNetRequest`, `declarativeNetRequestFeedback`, `activeTab`, `alarms`, `browsingData`, `clipboardWrite`; `<all_urls>` — только optional (GPC).
