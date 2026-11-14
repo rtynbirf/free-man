@@ -1,6 +1,35 @@
-*.crx
-*.pem
+# Системный и редакторский мусор (канон хаба .github)
 .DS_Store
 Thumbs.db
-node_modules/
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Временные файлы (канон хаба)
+*.tmp
+*.orig
+*.rej
+*.bak
+
+# Мусор Ф1 мембраны (агрегация AGENTS.md)
+*.pyc
 __pycache__/
+node_modules/
+.venv/
+*.log
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+*.bundle
+*.zip
+*.cab
+*.wasm
+
+# Специфика расширения: ключи подписи и собранные пакеты
+*.crx
+*.pem
