@@ -89,5 +89,96 @@
    ],
    "domainType": "thirdParty"
   }
+ },
+ {
+  "id": 208,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "tawk.to"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 209,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "zdassets.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 210,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "crisp.chat"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 211,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "drift.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 212,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "disqus.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 213,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "uservoice.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 214,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "olark.com"
+   ],
+   "domainType": "thirdParty"
+  }
  }
 ]

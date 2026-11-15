@@ -1,23 +1,29 @@
-FREE MAN 0.2.1 — verification
+FREE MAN 0.2.2 — verification
 
-Static (489+ checks, Python validator):
-- manifest: MV3 fields, referenced files, ruleset defaults (trackers on, ads/widgets off)
+Static (709 checks, Python validator, 0 failures):
+- manifest: MV3 fields, referenced files, ruleset defaults (trackers+cname on, ads/widgets off)
 - permissions cross-checked against every chrome.* call in service-worker.js / popup.js / guide.js
-  0.2.1 fix: declarativeNetRequestFeedback added (getMatchedRules() rejected without it -> per-tab
-  domain list in popup silently showed 0); clipboardWrite added for the copy button
-- 72 domains: bijection data/domains.json <-> rules/*.json <-> docs/blocklist_72_domains.txt;
-  tiers 42/23/7; rule ids unique across all three rulesets; no collision with dynamic ids 9000/10000+
+- 108 domains: bijection data/domains.json <-> rules/*.json <-> docs/blocklist_domains.txt;
+  tiers 48/30/14/16; rule ids unique across all four rulesets; no collision with dynamic ids 9000/10000+
+- cname tier (new in 0.2.2): 16 canonical CNAME-cloaking vendor domains; source: AdGuard
+  cname-trackers (data/combined_original_trackers_justdomains.txt), curated subset; in-browser
+  value = blocking direct vendor hits; cloaked hosts stay a DNS-level job (export in guide)
 - icons: PNG 16/48/128 valid; no inline scripts / on*= handlers (MV3 CSP); no remote code or URLs;
   node --check on all three JS files
 
 Behavioral (13 tests, Node with mock chrome.*: storage, DNR, alarms, runtime, message round-trip):
-- install -> balanced default, badge on, no dynamic rules
-- modes off/balanced/strict incl. bogus input ignored
+all 13 PASS
+- install -> balanced default = trackers+cname enabled, badge on, no dynamic rules
+- SET_MODE strict -> all four rulesets; off -> none; bogus mode ignored (no reply)
 - pause 1h -> allow rule (initiatorDomains) + alarm; pause forever -> no alarm
 - invalid hosts rejected; distinct rule ids, no duplicates
 - GPC -> modifyHeaders rule id 9000 Sec-GPC:1 on all resource types
 - expired pause pruned on GET_STATE, rule dropped on alarm; resume; startup re-sync
 - note: pause rule ids are re-indexed on each syncDynamic (by design, ids shift)
+
+Screenshots (docs/screenshots/): real UI rendered headlessly (Playwright/Chromium) with stubbed
+chrome.* and sample counters; popup shows 0.2.2, modes 64/108, counter 51 = sum of per-domain
+counts; guide shows checklist with two days done. Not a substitution for real-browser testing.
 
 Confirmed against Chrome documentation (12.11.2026):
 - getMatchedRules requires "declarativeNetRequestFeedback" and is available only to unpacked extensions

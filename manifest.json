@@ -2,9 +2,9 @@
   "manifest_version": 3,
   "name": "FREE MAN — Browser Autonomy",
   "short_name": "FREE MAN",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "minimum_chrome_version": "111",
-  "description": "Local-first: 72 tracker domains blocked, per-site pause, per-tab counter, site-data wipe, 7-day self-defense guide. No account, cloud, or telemetry.",
+  "description": "Local-first: 108 tracking domains (incl. CNAME-cloaking vendors), per-site pause, per-tab counter, site-data wipe, 7-day self-defense guide. No account, cloud, or telemetry.",
   "permissions": ["storage", "declarativeNetRequest", "declarativeNetRequestFeedback", "activeTab", "alarms", "browsingData", "clipboardWrite"],
   "optional_host_permissions": ["<all_urls>"],
   "action": { "default_title": "FREE MAN", "default_popup": "popup.html" },
@@ -13,6 +13,7 @@
   "declarative_net_request": {
     "rule_resources": [
       { "id": "trackers", "enabled": true,  "path": "rules/trackers.json" },
+      { "id": "cname",    "enabled": true,  "path": "rules/cname.json" },
       { "id": "ads",      "enabled": false, "path": "rules/ads.json" },
       { "id": "widgets",  "enabled": false, "path": "rules/widgets.json" }
     ]

@@ -297,5 +297,96 @@
    ],
    "domainType": "thirdParty"
   }
+ },
+ {
+  "id": 124,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "adform.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 125,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "adroll.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 126,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "adition.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 127,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "sonobi.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 128,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "bkrtx.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 129,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "indexww.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 130,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "zedo.com"
+   ],
+   "domainType": "thirdParty"
+  }
  }
 ]

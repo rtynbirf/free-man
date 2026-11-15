@@ -502,5 +502,257 @@
   "tier": "ads",
   "owner": "Рекламные биржи",
   "category": "реклама"
+ },
+ {
+  "id": 43,
+  "domain": "plausible.io",
+  "tier": "trackers",
+  "owner": "Plausible Labs",
+  "category": "аналитика"
+ },
+ {
+  "id": 44,
+  "domain": "chartbeat.com",
+  "tier": "trackers",
+  "owner": "Chartbeat",
+  "category": "аналитика"
+ },
+ {
+  "id": 45,
+  "domain": "snowplow.io",
+  "tier": "trackers",
+  "owner": "Snowplow",
+  "category": "сбор событий"
+ },
+ {
+  "id": 46,
+  "domain": "crazyegg.com",
+  "tier": "trackers",
+  "owner": "Crazy Egg",
+  "category": "тепловые карты"
+ },
+ {
+  "id": 47,
+  "domain": "mouseflow.com",
+  "tier": "trackers",
+  "owner": "Mouseflow",
+  "category": "записи сессий"
+ },
+ {
+  "id": 48,
+  "domain": "inspectlet.com",
+  "tier": "trackers",
+  "owner": "Inspectlet",
+  "category": "записи сессий"
+ },
+ {
+  "id": 124,
+  "domain": "adform.net",
+  "tier": "ads",
+  "owner": "Adform",
+  "category": "реклама"
+ },
+ {
+  "id": 125,
+  "domain": "adroll.com",
+  "tier": "ads",
+  "owner": "AdRoll",
+  "category": "ретаргетинг"
+ },
+ {
+  "id": 126,
+  "domain": "adition.com",
+  "tier": "ads",
+  "owner": "Adition (WPP)",
+  "category": "реклама"
+ },
+ {
+  "id": 127,
+  "domain": "sonobi.com",
+  "tier": "ads",
+  "owner": "Sonobi",
+  "category": "реклама"
+ },
+ {
+  "id": 128,
+  "domain": "bkrtx.com",
+  "tier": "ads",
+  "owner": "BloomReach",
+  "category": "реклама"
+ },
+ {
+  "id": 129,
+  "domain": "indexww.com",
+  "tier": "ads",
+  "owner": "Index Exchange",
+  "category": "реклама"
+ },
+ {
+  "id": 130,
+  "domain": "zedo.com",
+  "tier": "ads",
+  "owner": "Zedo",
+  "category": "реклама"
+ },
+ {
+  "id": 208,
+  "domain": "tawk.to",
+  "tier": "widgets",
+  "owner": "Tawk.to",
+  "category": "чат сайта"
+ },
+ {
+  "id": 209,
+  "domain": "zdassets.com",
+  "tier": "widgets",
+  "owner": "Zendesk",
+  "category": "чат сайта"
+ },
+ {
+  "id": 210,
+  "domain": "crisp.chat",
+  "tier": "widgets",
+  "owner": "Crisp",
+  "category": "чат сайта"
+ },
+ {
+  "id": 211,
+  "domain": "drift.com",
+  "tier": "widgets",
+  "owner": "Drift",
+  "category": "чат сайта"
+ },
+ {
+  "id": 212,
+  "domain": "disqus.com",
+  "tier": "widgets",
+  "owner": "Disqus",
+  "category": "комментарии"
+ },
+ {
+  "id": 213,
+  "domain": "uservoice.com",
+  "tier": "widgets",
+  "owner": "UserVoice",
+  "category": "обратная связь"
+ },
+ {
+  "id": 214,
+  "domain": "olark.com",
+  "tier": "widgets",
+  "owner": "Olark",
+  "category": "чат сайта"
+ },
+ {
+  "id": 301,
+  "domain": "adobedc.net",
+  "tier": "cname",
+  "owner": "Adobe",
+  "category": "аналитика и аудитории (edge-сбор)"
+ },
+ {
+  "id": 302,
+  "domain": "dnsdelegation.io",
+  "tier": "cname",
+  "owner": "Adobe Audience Manager",
+  "category": "DNS-delegation аудиторий"
+ },
+ {
+  "id": 303,
+  "domain": "at-o.net",
+  "tier": "cname",
+  "owner": "AT Internet",
+  "category": "аналитика"
+ },
+ {
+  "id": 304,
+  "domain": "tagcommander.com",
+  "tier": "cname",
+  "owner": "Commanders Act",
+  "category": "диспетчер тегов"
+ },
+ {
+  "id": 305,
+  "domain": "actonservice.com",
+  "tier": "cname",
+  "owner": "Act-On",
+  "category": "маркетинг-автоматизация"
+ },
+ {
+  "id": 306,
+  "domain": "actonsoftware.com",
+  "tier": "cname",
+  "owner": "Act-On",
+  "category": "маркетинг-автоматизация"
+ },
+ {
+  "id": 307,
+  "domain": "ebis.ne.jp",
+  "tier": "cname",
+  "owner": "Transcosmos (EBiS)",
+  "category": "аналитика"
+ },
+ {
+  "id": 308,
+  "domain": "a8.net",
+  "tier": "cname",
+  "owner": "A8.net",
+  "category": "affiliate-трекинг"
+ },
+ {
+  "id": 309,
+  "domain": "adocean.pl",
+  "tier": "cname",
+  "owner": "AdOcean",
+  "category": "реклама"
+ },
+ {
+  "id": 310,
+  "domain": "storetail.io",
+  "tier": "cname",
+  "owner": "Storetail (Criteo)",
+  "category": "ритейл-медиа"
+ },
+ {
+  "id": 311,
+  "domain": "dataunlocker.com",
+  "tier": "cname",
+  "owner": "DataUnlocker",
+  "category": "анти-адблок прокси"
+ },
+ {
+  "id": 312,
+  "domain": "ad-shield.cc",
+  "tier": "cname",
+  "owner": "Ad-Shield",
+  "category": "анти-адблок / реклама"
+ },
+ {
+  "id": 313,
+  "domain": "datafa.st",
+  "tier": "cname",
+  "owner": "Datafast",
+  "category": "веб-аналитика"
+ },
+ {
+  "id": 314,
+  "domain": "1p-data.co",
+  "tier": "cname",
+  "owner": "First-party данные",
+  "category": "сбор через CNAME"
+ },
+ {
+  "id": 315,
+  "domain": "greylabeldelivery.com",
+  "tier": "cname",
+  "owner": "ESP delivery",
+  "category": "email-трекинг"
+ },
+ {
+  "id": 316,
+  "domain": "aquaplatform.com",
+  "tier": "cname",
+  "owner": "Aqua Platform",
+  "category": "аналитика"
  }
 ]

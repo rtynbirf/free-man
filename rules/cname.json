@@ -1,0 +1,210 @@
+[
+ {
+  "id": 301,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "adobedc.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 302,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "dnsdelegation.io"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 303,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "at-o.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 304,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "tagcommander.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 305,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "actonservice.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 306,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "actonsoftware.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 307,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "ebis.ne.jp"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 308,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "a8.net"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 309,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "adocean.pl"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 310,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "storetail.io"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 311,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "dataunlocker.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 312,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "ad-shield.cc"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 313,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "datafa.st"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 314,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "1p-data.co"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 315,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "greylabeldelivery.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 316,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "aquaplatform.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ }
+]

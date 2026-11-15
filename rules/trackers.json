@@ -544,5 +544,83 @@
    ],
    "domainType": "thirdParty"
   }
+ },
+ {
+  "id": 43,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "plausible.io"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 44,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "chartbeat.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 45,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "snowplow.io"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 46,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "crazyegg.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 47,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "mouseflow.com"
+   ],
+   "domainType": "thirdParty"
+  }
+ },
+ {
+  "id": 48,
+  "priority": 1,
+  "action": {
+   "type": "block"
+  },
+  "condition": {
+   "requestDomains": [
+    "inspectlet.com"
+   ],
+   "domainType": "thirdParty"
+  }
  }
 ]

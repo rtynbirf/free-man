@@ -1,6 +1,6 @@
 const DEFAULT_MODE = "balanced";
-const ALL_SETS = ["trackers", "ads", "widgets"];
-const MODE_SETS = { off: [], balanced: ["trackers"], strict: ["trackers", "ads", "widgets"] };
+const ALL_SETS = ["trackers", "ads", "widgets", "cname"];
+const MODE_SETS = { off: [], balanced: ["trackers", "cname"], strict: ["trackers", "ads", "widgets", "cname"] };
 const PAUSE_BASE = 10000;   // dynamic allow-rules: per-site pause
 const GPC_RULE_ID = 9000;   // dynamic rule: Sec-GPC header (needs optional host permission)
 const ALL_TYPES = ["main_frame","sub_frame","stylesheet","script","image","font","object","xmlhttprequest","ping","csp_report","media","websocket","other"];
