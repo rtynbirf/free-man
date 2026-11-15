@@ -1,3 +1,15 @@
+<div align="center">
+  <img src="banner.png" width="100%" alt="Коллаж-штандарт free-man" />
+</div>
+
+<!--ФОРЖ:МУЗА:НАЧАЛО-->
+<div align="center">
+  <img src="repo-muse.svg" width="100%" alt="Муза free-man: мастерская ПРОЁМ СВЕТА, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
+  <br/>
+  <img src="forge-divider.svg" width="62%" alt="делитель мастерской ПРОЁМ СВЕТА" />
+</div>
+<!--ФОРЖ:МУЗА:КОНЕЦ-->
+
 # FREE MAN — Browser Autonomy (Chrome MV3) 0.2.2
 
 **Local-first блокировка трекеров для Chrome. Нет аккаунта, сервера, телеметрии, content scripts, удалённых списков.**
@@ -83,3 +95,11 @@ Fingerprint-защита (без измерений не заявляем), ав
 - [Releases](https://github.com/rtynbirf/free-man/releases) — zip расширения + PDF-план «7 дней цифрового самоосвобождения»
 
 MIT — [LICENSE](LICENSE).
+
+
+<!--ФОРЖ:ПОДВАЛ-->
+---
+
+<div align="center">
+  <sub>◆ картина и штандарт — ручная ковка <a href="https://github.com/rtynbirf">КУЗНИ ПОЛИМАТ</a> · ЧЕЛОВЕК=АККАУНТ=PID1 ◆</sub>
+</div>
