@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Если используете этот проект, процитируйте его так."
+title: "free-man"
+abstract: "FREE MAN 0.2.2 — browser autonomy for Chrome MV3. 108 tracker/ads/CNAME domains blocked 100% on-device. No account, no cloud, no telemetry."
+authors:
+  - name: "Полимат-Универсум (rtynbirf)"
+repository-code: "https://github.com/rtynbirf/free-man"
