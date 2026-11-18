@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="banner.png" width="100%" alt="Коллаж-штандарт free-man" />
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/free-man@main/banner.png" width="100%" alt="Коллаж-штандарт free-man" />
 </div>
 
 <!--ФОРЖ:МУЗА:НАЧАЛО-->
 <div align="center">
-  <img src="repo-muse.svg" width="100%" alt="Муза free-man: мастерская ПРОЁМ СВЕТА, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/free-man@main/repo-muse.svg" width="100%" alt="Муза free-man: мастерская ПРОЁМ СВЕТА, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
   <br/>
-  <img src="forge-divider.svg" width="62%" alt="делитель мастерской ПРОЁМ СВЕТА" />
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/free-man@main/forge-divider.svg" width="62%" alt="делитель мастерской ПРОЁМ СВЕТА" />
 </div>
 <!--ФОРЖ:МУЗА:КОНЕЦ-->
 
