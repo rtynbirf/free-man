@@ -10,7 +10,7 @@
 import hashlib, json, os, re, subprocess
 
 try:
-    CFG = json.loads(r'''{"name": "free-man", "num": 22, "school": "НОВОСТРОЙ РОЯ", "desc": "FREE MAN 0.2.2 — browser autonomy for Chrome MV3. 108 tracker/ads/CNAME domains blocked 100% on-device. No account, no cloud, no telemetry.", "topics": ["adblocker", "chrome-extension", "declarative-net-request", "digital-sovereignty"], "releases": 0, "palette": {"bg": "#171512", "bg2": "#232017", "ink": "#F2E9D4", "gold": "#D4AF37", "gold2": "#E8C868", "dim": "#A99E82", "accent": "#B03A2A"}}''')
+    CFG = json.loads(r'''{"name": "free-man", "num": 64, "school": "ПРОЁМ СВЕТА", "desc": "FREE MAN 0.2.2 — browser autonomy for Chrome MV3. 108 tracker/ads/CNAME domains blocked 100% on-device. No account, no cloud, no telemetry.", "topics": ["adblocker", "chrome-extension", "declarative-net-request", "digital-sovereignty"], "releases": 2, "palette": {"bg": "#171512", "bg2": "#232017", "ink": "#F2E9D4", "gold": "#D4AF37", "gold2": "#E8C868", "dim": "#A99E82", "accent": "#B03A2A"}}''')
 except Exception:
     CFG = {"name": "REVO", "num": 0, "school": "", "desc": "", "topics": [], "releases": 0,
            "palette": dict(bg="#EFE6CF", bg2="#F6EFDC", ink="#241C10", gold="#9A7B23",
