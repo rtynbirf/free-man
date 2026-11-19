@@ -1,4 +1,10 @@
 <div align="center">
+
+<a href="https://github.com/rtynbirf/free-man"><img src="banner.png" width="100%" alt="free-man — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/rtynbirf/free-man@main/banner.png" width="100%" alt="Коллаж-штандарт free-man" />
 </div>
 
@@ -17,7 +23,7 @@
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 56 | 10 | 93 | 2026-11-19 | 2 |
+| 56 | 9 | 94 | 2026-11-19 | 0 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
 
 # FREE MAN — Browser Autonomy (Chrome MV3) 0.2.2
