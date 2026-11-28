@@ -4,10 +4,6 @@
 
 </div>
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/free-man@main/banner.png" width="100%" alt="Коллаж-штандарт free-man" />
-</div>
-
 <!--ФОРЖ:МУЗА:НАЧАЛО-->
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/rtynbirf/free-man@main/repo-muse.svg" width="100%" alt="Муза free-man: мастерская ПРОЁМ СВЕТА, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
@@ -18,13 +14,31 @@
 
 <!--ФОРЖ:ПАСПОРТ:НАЧАЛО-->
 <div align="center">
-  <img src="revo-page.svg" width="100%" alt="РЕВО-паспорт страницы free-man в каноне ORNAMENTAL MYTHO-REALISM: орнаментальная решётка, медальон-миф, строение файлов, лексикон — по фактическому контенту" />
+  <img src="revo-page.svg" width="100%" alt="РЕВО-паспорт страницы free-man №64 в каноне ORNAMENTAL MYTHO-REALISM: орнаментальная решётка, медальон-миф, строение файлов, лексикон — по фактическому контенту" />
 </div>
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 65 | 11 | 154 | 2026-11-28 | 2 |
+| 65 | 10 | 1 | 2026-11-28 | 2 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
+# free-man
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/rtynbirf/free-man@main/.github/social-preview.png" alt="free-man" width="100%"></p>
+
+<div align="center">
+
+<a href="https://github.com/rtynbirf/free-man"><img src="banner.png" width="100%" alt="free-man — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/free-man@main/banner.png" width="100%" alt="Коллаж-штандарт free-man" />
+</div>
+
+
+
+
 
 # FREE MAN — Browser Autonomy (Chrome MV3) 0.2.2
 
